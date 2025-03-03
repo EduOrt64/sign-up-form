@@ -1,0 +1,15 @@
+* {margin:0;
+   padding: 0;
+   box-sizing: border-box;}
+
+   body{display: flex;
+        flex-direction: row;}
+
+   .img-decor{ width: 40%;
+               max-width: 400px;
+               height:100vh;
+               background-image: url(Extra\ files/giphy.gif);
+               background-size: cover;
+            
+
+   }
