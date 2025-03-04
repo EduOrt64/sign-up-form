@@ -13,6 +13,7 @@
 <body>
 <div class="img-decor">
    <div class="logo-container"> <img src="Extra files/odin-lined.png" alt="odin-logo" class="odin-log"><h2 class="odin-text">ODIN</h2></div>
+   <h6>photo by xponentialdesign on <a href="https://giphy.com">https://giphy.com/</a></h6>
 </div> 
 <div class="form-container">
     <div class="spacer"></div>
@@ -27,31 +28,31 @@
     <fieldset>
         <div class="input-box">
         <label for="first-name">First Name:</label>
-        <input type="text" name="first-name">
+        <input type="text" name="first-name" placeholder="Mickey">
     </div>
     <div class="input-box">
         <label for="last-name">Last Name:</label>
-        <input type="text" name="last-name">
+        <input type="text" name="last-name" placeholder="Mouse">
     </div>
     </fieldset>
     <fieldset>
         <div class="input-box">
         <label for="email">Email:</label>
-        <input type="email" name="email">
+        <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="odin-project@greatmail.com">
     </div>
     <div class="input-box">
         <label for="phone">Phone Number:</label>
-        <input type="number" name="phone">
+        <input type="number" name="phone" pattern="+ +[0-9].{9}" placeholder="+1 33445562">
     </div>
     </fieldset>
     <fieldset>
         <div class="input-box">
         <label for="pass">Password:</label>
-        <input type="password" name="pass">
+        <input type="password" name="pass" class="pass-style" pattern=".{8,}" title="Password must be at least 8 characters long" required>
     </div>
     <div class="input-box">
         <label for="confirm-pass">Confirm Password:</label>
-        <input type="password" name="confirm-pass">
+        <input type="password" name="confirm-pass" class="pass-style" pattern=".{8,}" required>
     </div>
     </fieldset>
 </form>
@@ -61,7 +62,9 @@
 </div>
 
 </div>
-    
-
+  
 </body>
+
+  
+ 
 </html>

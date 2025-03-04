@@ -22,7 +22,8 @@ body {
   max-width: 450px;
   height: 100vh;
   background-image: url(Extra\ files/giphy.gif);
-  background-size: cover;
+  background-size: cover;  
+  position: relative;
 }
 
 .odin-log {
@@ -120,6 +121,7 @@ input {
   border-radius: 5px;
   box-shadow: none;
   height: 25px;
+  color: rgb(22, 92, 154);
 }
 
 button{width: 120px;
@@ -147,3 +149,19 @@ h2{font-family:"Noto Sans", serif;
     
 margin-left:70px;
 margin-bottom: 20px;}
+
+.pass-style:invalid{border-color: rgb(219, 29, 76);}
+
+input:focus{  border-color: rgb(72, 72, 235);
+
+    border-radius: 5px;
+    box-shadow:  2px 2px 5px #11d9fc,
+             -2px -2px 5px #08a0ff;
+    height: 25px;
+    color: rgb(22, 92, 154)}
+    h6{color: antiquewhite;
+        position: absolute;
+        top: 800px;
+        text-justify: center;
+        left: 100px;
+ }
