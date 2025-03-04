@@ -5,33 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-<div class="img-decor"></div> 
+<div class="img-decor">
+   <div class="logo-container"> <img src="Extra files/odin-lined.png" alt="odin-logo" class="odin-log"><h2 class="odin-text">ODIN</h2></div>
+</div> 
 <div class="form-container">
+    <div class="spacer"></div>
+<div class="top-text"><p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+<br>Sing up <span>now</span> to get started.
+</p>
+<p>You <span>know</span> you want to.</p>
+</div>
+
 <form>
+    <h2>Let's do this</h2>
     <fieldset>
-        <label>First Name</label>
+        <div class="input-box">
+        <label for="first-name">First Name:</label>
         <input type="text" name="first-name">
-        <label>Last Name</label>
+    </div>
+    <div class="input-box">
+        <label for="last-name">Last Name:</label>
         <input type="text" name="last-name">
+    </div>
     </fieldset>
     <fieldset>
-        <label>Email</label>
+        <div class="input-box">
+        <label for="email">Email:</label>
         <input type="email" name="email">
-        <label>Phone Number</label>
+    </div>
+    <div class="input-box">
+        <label for="phone">Phone Number:</label>
         <input type="number" name="phone">
+    </div>
     </fieldset>
     <fieldset>
-        <label>Password</label>
+        <div class="input-box">
+        <label for="pass">Password:</label>
         <input type="password" name="pass">
-        <label>Confirm Password</label>
+    </div>
+    <div class="input-box">
+        <label for="confirm-pass">Confirm Password:</label>
         <input type="password" name="confirm-pass">
+    </div>
     </fieldset>
 </form>
 <div>
     <button type="submit">Create Account</button>
-    <h5>Already have an account? <a>Log in</a></h5>
+    <h5>Already have an account? <a href="">Log in</a></h5>
 </div>
 
 </div>
